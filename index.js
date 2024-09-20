@@ -12,7 +12,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
     cors: {
-        origin: "https://chatwithworld-rohit.netlify.app/",
+        origin: "https://chatwithworld-rohit.netlify.app",
         methods: ["GET", "POST"]
     }
 });
